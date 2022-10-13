@@ -18,7 +18,9 @@ export const App = () => {
       </header>
       <form className="flex flex-col items-stretch">
         <label htmlFor="email" className="flex flex-col gap-2 mb-4">
-          <Text className="font-semibold">Endereço de e-mail</Text>
+          <Text className="font-semibold text-gray-100">
+            Endereço de e-mail
+          </Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Envelope />
@@ -31,7 +33,7 @@ export const App = () => {
           </TextInput.Root>
         </label>
         <label htmlFor="password" className="flex flex-col gap-2 mb-4">
-          <Text className="font-semibold">Sua senha</Text>
+          <Text className="font-semibold text-gray-100">Sua senha</Text>
           <TextInput.Root>
             <TextInput.Icon>
               <Lock />
@@ -53,12 +55,12 @@ export const App = () => {
       </form>
       <footer className="flex flex-col items-center gap-4 mt-8 mb-8">
         <Text size="sm" asChild>
-          <a href="" className="text-gray-400 underline">
+          <a href="" className="text-gray-400 underline hover:text-gray-100">
             Esqueceu sua senha?
           </a>
         </Text>
         <Text size="sm" asChild>
-          <a href="" className="text-gray-400 underline">
+          <a href="" className="text-gray-400 underline hover:text-gray-100">
             Não possui conta? Crie uma agora!
           </a>
         </Text>

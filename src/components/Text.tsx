@@ -18,7 +18,7 @@ export const Text = ({
   return (
     <Comp
       className={clsx(
-        "text-gray-100 font-sans",
+        " font-sans",
         {
           "text-xs": size === "sm",
           "text-sm": size === "md",

@@ -7,6 +7,7 @@ export default {
   args: {
     children: "Lorem ipsum",
     size: "md",
+    className: "text-gray-100",
   },
   argTypes: {
     size: {
